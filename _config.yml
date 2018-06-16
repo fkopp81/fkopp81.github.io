@@ -69,3 +69,4 @@ prose:
       name: "title"
       field:
         element: "text"
+        type: "text"
