@@ -63,10 +63,10 @@ defaults:
     values:
       layout: "post"
 
-prose:
-  metadata:
-    _posts:
-      name: "title"
-      field:
-        element: "text"
-        type: "text"
+# prose:
+#   metadata:
+#     _posts:
+#       name: "title"
+#       field:
+#         element: "text"
+#         type: "text"
