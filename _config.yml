@@ -88,7 +88,7 @@ prose:
     tag:
       - name: "tag"
         field:
-          element: "text"
+          element: "textarea"
           value: ""
           label: "tag"
       - name: "published"
