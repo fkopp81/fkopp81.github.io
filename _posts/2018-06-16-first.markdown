@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "first"
 tags: programming humor
 ---

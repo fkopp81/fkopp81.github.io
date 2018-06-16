@@ -55,3 +55,17 @@ kramdown:
   hard_wrap: true
 
 exclude: ['README.md', 'LICENSE']
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
+
+prose:
+  metadata:
+    _posts:
+      name: "title"
+      field:
+        element: "text"
