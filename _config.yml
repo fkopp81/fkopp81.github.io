@@ -71,3 +71,12 @@ prose:
           element: "text"
           value: ""
           label: "title"
+      - name: "tags"
+        field:
+          element: "text"
+          value: ""
+          label: "tags"
+      - name: "Date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
