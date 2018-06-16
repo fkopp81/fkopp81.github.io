@@ -70,3 +70,4 @@ prose:
         field:
           element: "text"
           value: ""
+          label: "title"
