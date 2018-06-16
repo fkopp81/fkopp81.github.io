@@ -1,6 +1,7 @@
 ---
-title: "first"
+title: First post!
 tags: programming humor
+published: true
 ---
 
 # Hello world and coding humor
