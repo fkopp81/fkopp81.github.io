@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "first"
+tags: programming humor
 ---
 
 # Hello world and coding humor
