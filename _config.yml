@@ -86,7 +86,9 @@ prose:
           element: "hidden"
           value: CURRENT_DATETIME
     tag:
-      - name: "layout"
+      - name: "tag"
         field:
-         element: "hidden"
+         element: "text"
+         value: ""
+         label: "tag"
          
