@@ -5,7 +5,7 @@ title: "first"
 
 # Hello world and coding humor
 
-Perfect first post link. - [“15 jokes only programmers will get” @PavelMalos] (https://hackernoon.com/15-jokes-only-programmers-will-get-b42873eba509)
+Perfect first post link. - [“15 jokes only programmers will get” @PavelMalos](https://hackernoon.com/15-jokes-only-programmers-will-get-b42873eba509)
 
 I chuckled at all of them. So I guess it's official - I'm a programmer!
 
