@@ -1,8 +1,8 @@
 ---
 Date: '2018-06-16 14:16 +0200'
-published: false
+published: true
 title: Totally meta - what makes this blog tick.
-tags: web_development
+tags: web_design
 ---
 ## Ack!
 
