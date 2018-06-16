@@ -62,6 +62,11 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "tag"
+    values:
+      layout: "tag_index"
 
 prose:
   metadata:
@@ -80,3 +85,8 @@ prose:
         field:
           element: "hidden"
           value: CURRENT_DATETIME
+    tag:
+      - name: "layout"
+        field:
+         element: "hidden"
+         
