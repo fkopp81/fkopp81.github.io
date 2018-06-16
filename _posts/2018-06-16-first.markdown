@@ -1,7 +1,7 @@
 ---
 Date: '2018-06-16 14:16 +0200'
 title: First post!
-tags: programming humor
+tags: programming fun
 published: true
 ---
 
