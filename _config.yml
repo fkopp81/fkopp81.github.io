@@ -91,4 +91,8 @@ prose:
           element: "text"
           value: ""
           label: "tag"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"          
          
