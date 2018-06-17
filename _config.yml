@@ -24,10 +24,9 @@ share:
 
 social:
   github: fkopp81
-  stackoverflow: ''
-  linkedin:
+  stackoverflow: 'florian-kopp'
+  linkedin: 'florian-kopp-code-psychology'
   instagram: ''
-  lastfm: ''
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
@@ -94,5 +93,4 @@ prose:
       - name: "published"
         field:
           element: "hidden"
-          value: "true"          
-         
+          value: "true"
