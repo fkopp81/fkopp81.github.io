@@ -1,6 +1,6 @@
 ---
 Date: '2018-06-18 20:23 +0200'
-published: false
+published: true
 title: Open source technology based competence assessment
 tags: open-source technology-based-testing
 ---
