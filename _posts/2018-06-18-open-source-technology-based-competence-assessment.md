@@ -2,7 +2,7 @@
 Date: '2018-06-18 20:23 +0200'
 published: true
 title: Open source technology based assessment
-tags: open-source technology-based-testing
+tags: open-source technology-based-assessment
 ---
 ## Give a researcher a test and they'll test for a study. Give them a testing software and they'll...
 
