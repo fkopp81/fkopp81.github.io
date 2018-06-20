@@ -2,6 +2,7 @@
 Date: '2018-06-20 20:58 +0200'
 published: false
 title: Debating AI
+tags: AI
 ---
 # Debating AI
 
