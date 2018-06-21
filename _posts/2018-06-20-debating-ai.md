@@ -19,12 +19,3 @@ Can it be convinced and change it's stance when encountering a better argument?
 On the other hand - can we reliably? I Looking at the current political discourse it doesn't seem like it. Even in science new theories  sometimes gain traction as generations of scientists change.
 
 Maybe getting an AI to just be better than humans at evolving it's position will be a low hanging fruit.
-
-
-
-
-
-A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button fo formatting help.
-
