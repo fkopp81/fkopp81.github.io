@@ -44,7 +44,7 @@ SOFTWARE.
 
 "Copyleft" licenses include a clause requiring all derivates of the work to be put under the same licence.
 
-Such a clause complicates how confidential materials, like test items, can be integrated into the software in a way that does not require their public release. For that reason that class of licenses seems like a bad choice for 
+Such a clause complicates how confidential materials, like test items, can be integrated into the software in a way that does not require their public release. For that reason that class of licenses seems like a bad choice for psychometrical instruments relying on participants not knowing the items beforehand.
 
 Licenses like MIT that do not include such a copyleft-clause allow derivates to be re-licensed freely, so there is no requirement to share modified software or source code.
 
