@@ -9,10 +9,10 @@ tags: open-source technology-based-assessment
 Sharing competence assessment items endangers the psychometric validity. As they are released to the broader public, study participants might learn about them. This "burns" the instrument, as the effect of knowing a particular item interferes with the measurement of the domain skill of a person.
 
 Sharing the software used to administer the items could hardly influence participants, since it does not include the actual items. On the other hand there is a number of advantages associated in free sharing:
-- Networking: You attract others that are interested in what you share. These are just the people you want to get in touch with to exchange knowledge and explore research opportunities.
-- Transparency: You document the technical properties of your tests - others can re-implement your tests with mock items and reproduce the experience of your test takers.
-- Paying forward: You support new researchers interested in technology based assessment, by giving them a groundwork to build upon.
-- Collaboration: By sharing the software code, others can contribute to it, from finding bugs, improving your written documentation, or adding new features. Using a public repository like Github, you retain control over the development of your "brand" of the software.
+- Networking: Shared software can become a point of contact for scientisits with similar interests, opening up venues for sharing knowledge and exploring research opportunities.
+- Transparency: Sharing is documenting - when others can run the software used in an assessment they can reproduce and reason about the experience of participants.
+- Paying forward: Starting with technology based assessment from scratch is hard. When you share your groundwork, new researchers in the field can build upon it to jumpstart their own assessments.
+- Collaboration: By sharing software and code, others can contribute to it, from finding bugs, improving written documentation, to adding new features. The original authors do stay in control about their "brand" of the software though. Using public repositories like Github, they have the last word about all proposed changes and additions.
 
 ## Open source
 
