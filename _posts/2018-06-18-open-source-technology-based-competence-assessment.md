@@ -4,7 +4,7 @@ published: true
 title: Open source technology based assessment
 tags: open-source technology-based-assessment
 ---
-## Give a researcher a test and they'll test for a study. Give them a testing software and they'll...
+## Give a researcher a test and they can use it for a study. Give them a testing software and they can...
 
 Sharing competence assessment items endangers the psychometric validity. As they are released to the broader public, study participants might learn about them. This "burns" the instrument, as the effect of knowing a particular item interferes with the measurement of the domain skill of a person.
 
