@@ -8,7 +8,7 @@ tags: open-source technology-based-assessment
 
 Sharing competence assessment items endangers the psychometric validity. As they are released to the broader public, study participants might learn about them. This "burns" the instrument, as the effect of knowing a particular item interferes with the measurement of the domain skill of a person.
 
-Sharing the software used to administer the items could hardly influence participants, since it does not include the actual items. On the other hand there is a number of advantages associated in free sharing:
+On the other hand, sharing a software used to administer the items can hardly influence participants, since it does not include the actual items. On the other hand there is a number of advantages associated in free sharing:
 - Networking: Shared software can become a point of contact for scientisits with similar interests, opening up venues for sharing knowledge and exploring research opportunities.
 - Transparency: Sharing is documenting - when others can run the software used in an assessment they can reproduce and reason about the experience of participants.
 - Paying forward: Starting with technology based assessment from scratch is hard. When you share your groundwork, new researchers in the field can build upon it to jumpstart their own assessments.
