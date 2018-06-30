@@ -9,7 +9,7 @@ url: https://floriankopp.me
 #url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
-baseurl: https://floriankopp.me
+baseurl: 
 
 author: Florian Kopp
 copyright: 2018
