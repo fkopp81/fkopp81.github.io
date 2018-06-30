@@ -92,3 +92,5 @@ prose:
         field:
           element: "hidden"
           value: "true"
+plugins:
+  - jekyll-feed          
