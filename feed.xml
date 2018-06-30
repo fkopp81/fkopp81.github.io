@@ -1,5 +1,6 @@
 ---
 layout: null
+published: true
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -7,7 +8,7 @@ layout: null
 	<channel>
 		<title>{{ site.name }}</title>
 		<description>{{ site.description }}</description>
-		<link>{{ '' | relative_url }}</link>
+		<link>{{ absolute_url | relative_url }}</link>
 		<atom:link href="{{ '/feed.xml' | relative_url }}" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			<item>
