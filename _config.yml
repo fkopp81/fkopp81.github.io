@@ -5,7 +5,6 @@ email: floriankopp@posteo.de
 url: https://floriankopp.me
 description: >- # this means to ignore newlines until "baseurl:"
   A software developer with psychology degree. Interested in science, well-being and weirdness. Here you find micro-bloggings about what I am up to and happen upon from all the perspectives I have to offer.
-# Url is currently only used only for the RSS feed in feed.xml
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: ''
