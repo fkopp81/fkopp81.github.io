@@ -1,6 +1,6 @@
 ---
 Date: '2018-07-11 15:49 +0200'
-published: false
+published: true
 title: Regular expression 101 - writing a versatile number matcher
 tags: regular-expressions
 ---
