@@ -54,7 +54,7 @@ Of course there's more to numbers than digits, there are negative numbers and de
 
 The above expression matches "1.0", "-2,5" and ",7". Great! We are done now, right? Wrong! Because by this point we can do some very un-numerical shenanigans. Is "-.-" a number? Or "007"? How about "1,2.3,4"? Clearly we need to step up our game!
 
-We need two more regular expression features to put it all together. The first one, "|" signifies an "either or" match:
+We need two more regular expression features to put it all together. The first one, "\|" signifies an "either or" match:
 
 > /^a|b$/
 
