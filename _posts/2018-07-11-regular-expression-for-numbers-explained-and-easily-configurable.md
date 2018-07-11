@@ -107,7 +107,7 @@ Remove the second capture group (including the ?) to stop matching decimals:
 
 And all that's left is 0 to 99.
 
-And of course you can also remove the "0|" to stay positive.
+And of course you can also remove the "0\|" to stay positive.
 
 > /^([1-9]\d{0,1})?$/
 
