@@ -32,15 +32,15 @@ Or even shorter:
 
 > /^\\d?$/
 
-Enter the qualifiers: These special characters are used to signify how often the part directly in front of it is matched. That might sound complicated, so let's just go through a few examples: In the one above the  "?" is a quantifier that makes the part directly in front of it optional - so now the regular expression matches an empty input or a single digit. There's also
+Enter the quantifiers: These special characters are used to signify how often the part directly in front of it is matched. That might sound complicated, so let's just go through a few examples: In the one above the  "?" is a quantifier that makes the part directly in front of it optional - so now the regular expression matches an empty input or a single digit. There's also
 
 > /^\\d+$/
 
-The + qualifier means that the before part needs to be there once or multiple times, so it would match "01234" or "110", but not "". For that there's
+The + quantifiers means that the before part needs to be there once or multiple times, so it would match "01234" or "110", but not "". For that there's
 
 > /^\\d*$/
 
-With the * qualifier the before part is matched any number of times including not at all, so "" is okay now.
+With the * quantifiers the before part is matched any number of times including not at all, so "" is okay now.
 
 Finally you can constrain how many digits you want with curly braces.
 
