@@ -56,31 +56,31 @@ The above expression matches "1.0", "-2,5" and ",7". Great! We are done now, rig
 
 We need two more regular expression features to put it all together. The first one, "\|" signifies an "either or" match:
 
-> /^a|b$/
+> /^a\|b$/
 
 This means the above matches "a" or "b", but not "" or "ab" (and "ba" is right out).
 
 The other feature we need is the caption group, signified by "()". We use it to group a more complex sub-expression together, so we can write:
 
-> /^(a|b)?c$/
+> /^(a\|b)?c$/
 
 Relax, you can get through this with what you've learned so far. The caption group matches either "a" or "b". It's followed by "?", so it's optional. The "c" following that is standing on its own, so it's required. Altogether it matches "ac", "bc" or just "c", but not "", "ca" or anything else.
 
 Alright, back to numbers. First, let's stop 007 from ruining our evil plots:
 
-> /^(0|[1-9]\d{0,3})?$/
+> /^(0\|[1-9]\d{0,3})?$/
 
 What's this then? The whole capture group is optional, so "" is okay. Inside the group, it either matches "0" or the second part. That starts with [1-9], so all digits except 0, and is followed by \\d{0,3} - zero to three times any digit. So "0" is okay, just like "123" "9001" or "42" - but "0123" is not. (Wait - "9001"? But we got {0,3} in our expression, so shouldn't it match three digits at most? Yes, but the curly braces latch onto what's right in front of it - in this case the \\d. So the \[1-9\] matches any digit from 1 to 9 exactly once, followed by up to three more digits.)
 
 Let's get real now - as in real numbers with decimal places.
 
-> /^(0|[1-9]\d{0,3})?([,.]\d{0,2})?$/
+> /^(0\|[1-9]\d{0,3})?([,.]\d{0,2})?$/
 
 I just copy-pasted the first capture group from above. The new part is "([,.]\\d{0,2})?" Easy, right? First we have \[,.\], so either a comma or full stop (but not both) followed by 0-2 digits. So ",5" is allowed (since the first capture group is optional because of the ? behind it), and so is "0,5", "2,0" and "5." Wait, "5."? It's not nice but necessary for my specific use case, because the input is validated and rejected on the fly by the software my colleagues use. If "5," was not valid, I couldn't enter the ",", even if I wanted to actually write "5,5". I could type in "55" and then insert a comma in-between the digits, but it's a math test, not a problem solving one.
 
 Okay, we are almost done, and the last bit is anti-climactic, too:
 
-> /^-?(0|[1-9]\d{0,3})?([,.]\d{0,2})?$/
+> /^-?(0\|[1-9]\d{0,3})?([,.]\d{0,2})?$/
 
 Can you spot it? The "-?" at the beginning is new. All it says is that the whole input can optionally be prefaced by a "-", so it now also matches negative numbers! So "-9999", "-,5" "-0" all are allowed now. Well, "-0" is a bit silly (unless you are a Javascript developer, then it's the stuff of nightmares), but allowing it doesn't do much harm and comes with an advantage: We can view our regular expression as put together from three independably configurable segments.
 
@@ -88,14 +88,14 @@ Can you spot it? The "-?" at the beginning is new. All it says is that the whole
 ### Change the number of allowed digits
 Change the second number in either of the curly braces. For predecimals keep in mind that one more digit is matched, because the curly braces don't constrain the initial \[1-9\].
 
-> /^-?(0|[1-9]\d{0,1})?([,.]\d{0,1})?$/
+> /^-?(0\|[1-9]\d{0,1})?([,.]\d{0,1})?$/
 
 So now any number between -99,9 and 99,9 is matched.
 
 ### Don't be negative
 Just remove the "-?" part to only allow positive numbers
 
-> /^(0|[1-9]\d{0,1})?([,.]\d{0,1})?$/
+> /^(0\|[1-9]\d{0,1})?([,.]\d{0,1})?$/
 
 The above only matches 0 to 99,9 now.
 
@@ -103,7 +103,7 @@ The above only matches 0 to 99,9 now.
 
 Remove the second capture group (including the ?) to stop matching decimals:
 
-> /^(0|[1-9]\d{0,1})?$/
+> /^(0\|[1-9]\d{0,1})?$/
 
 And all that's left is 0 to 99.
 
